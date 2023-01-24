@@ -1,0 +1,76 @@
+@media (max-width: 800px ) {
+    body {
+        background-color: #f44336
+    }
+
+
+.fundo-video {
+    display: none;
+} 
+
+.container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 30px;
+}
+
+.container .mario  {
+    max-width: 50%;
+}
+
+
+
+.container .info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .description {
+    color: #ffff;
+    text-align: center;
+}
+
+.container .buttom-trailer {
+    background-color: #263238;
+}
+
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .image-title {
+        max-width: 75%;
+        justify-content: center;
+        
+    }
+
+    .modal .close-modal{
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video {
+        width: 300px;
+        height: 169px;
+    }
+    
+    .container .mario .image-mario{
+        height: 150px;
+
+    }
+
+    @media (max-width: 376px) {
+        .modal #video {
+            width: 250px;
+            height: 140px;
+        }
+    }
+
+}
